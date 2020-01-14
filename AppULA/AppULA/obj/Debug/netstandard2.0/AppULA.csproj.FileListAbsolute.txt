@@ -1,0 +1,14 @@
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\bin\Debug\netstandard2.0\AppULA.deps.json
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\bin\Debug\netstandard2.0\AppULA.dll
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\bin\Debug\netstandard2.0\ref\AppULA.dll
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\bin\Debug\netstandard2.0\AppULA.pdb
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\AppULA.csprojAssemblyReference.cache
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\Conversoes\PaginaInicial.xaml.g.cs
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\AppULA.AssemblyInfoInputs.cache
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\AppULA.AssemblyInfo.cs
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\AppULA.dll
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\ref\AppULA.dll
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\AppULA.pdb
+C:\Users\cida_\source\repos\AppULA\AppULA\AppULA\obj\Debug\netstandard2.0\XamlC.stamp

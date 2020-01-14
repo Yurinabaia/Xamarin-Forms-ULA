@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppULA.Conversoes.PaginaInicial">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Grid WidthRequest="120" BackgroundColor="Brown">
+                <Grid.ColumnDefinitions>
+                    <!--Definindo a coluna-->
+                    <ColumnDefinition Width="*"/>
+                    <!--Configurando a coluna-->
+                    <ColumnDefinition Width="*"/>
+                    <!--Configurando a coluna-->
+                    <ColumnDefinition Width="*"/>
+                    <!--Configurando a coluna-->
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <!--Definindo a linha-->
+                    <RowDefinition Height="*"/>
+                    <!--Configurando as linas-->
+                    <RowDefinition Height="*"/>
+                    <!--Configurando as linas-->
+                    <RowDefinition Height="*"/>
+                    <!--Configurando as linas-->
+                </Grid.RowDefinitions>
+                <Label Text="Nº 1" Grid.Column="0" Grid.Row="0" x:Name="LabelNum1"/>
+                <Entry Placeholder="Digite o primero número" Grid.Column="0" Grid.Row="1" x:Name="TexNum1"/>
+                <Button Grid.Column="1" Grid.Row="1" Text="Converter" HorizontalOptions="Center" VerticalOptions="Center" Clicked="BotaoCalcular" BackgroundColor="Blue"/>
+                <Label Text="Nº 2" Grid.Column="2" Grid.Row="0" x:Name="LabelNum2"/>
+                <Entry Placeholder="Digite o segundo número" Grid.Column="2" Grid.Row="1" x:Name="TexNum2"/>
+            </Grid>
+            <StackLayout>
+                <Grid WidthRequest="450">
+                    <Grid.ColumnDefinitions>
+                        <!--Definindo a coluna-->
+                        <ColumnDefinition Width="*"/>
+                        <!--Configurando a coluna-->
+                        <ColumnDefinition Width="*"/>
+                        <!--Configurando a coluna-->
+                        <ColumnDefinition Width="*"/>
+                        <!--Configurando a coluna-->
+                        <ColumnDefinition Width="*"/>
+                        <!--Configurando a coluna-->
+                        <ColumnDefinition Width="*"/>
+                        <!--Configurando a coluna-->
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <!--Definindo a linha-->
+                        <RowDefinition Height="*"/>
+                        <!--Configurando a linha-->
+                        <RowDefinition Height="*"/>
+                        <!--Configurando a linha-->
+                        <RowDefinition Height="*"/>
+
+                    </Grid.RowDefinitions>
+                    <Label Text="Número" WidthRequest="20" HeightRequest="20" Grid.Column="0" Grid.Row="0" x:Name="NUM"/>
+                    <Label Text="Sinal" WidthRequest="10" HeightRequest="10" Grid.Column="1" Grid.Row="0" x:Name="SINAL"/>
+                    <Label Text="Expoente" WidthRequest="10" HeightRequest="10" Grid.Column="2" Grid.Row="0" x:Name="EXPOENTE"/>
+                    <Label Text="Mantissa" WidthRequest="50" HeightRequest="20" Grid.Column="3" Grid.Row="0" x:Name="MANTISSA"/>
+                    <Label Text="Decimal" WidthRequest="50" HeightRequest="20" Grid.Column="4" Grid.Row="0" x:Name="DECIMAL"/>
+
+                    <Label Text="Número 2" WidthRequest="20" HeightRequest="20" Grid.Column="0" Grid.Row="1" x:Name="NUM2"/>
+                    <Label Text="Sinal 2" WidthRequest="10" HeightRequest="10" Grid.Column="1" Grid.Row="1" x:Name="SINAL2"/>
+                    <Label Text="Expoente 2" WidthRequest="10" HeightRequest="10" Grid.Column="2" Grid.Row="1" x:Name="EXPOENTE2"/>
+                    <Label Text="Mantissa 2" WidthRequest="50" HeightRequest="20" Grid.Column="3" Grid.Row="1" x:Name="MANTISSA2"/>
+                    <Label Text="Decimal 2" WidthRequest="50" HeightRequest="20" Grid.Column="4" Grid.Row="1" x:Name="DECIMAL2"/>
+
+
+                    <Label Text="Número " WidthRequest="20" HeightRequest="20" Grid.Column="0" Grid.Row="2" x:Name="NUM3"/>
+                    <Label Text="Sinal " WidthRequest="10" HeightRequest="10" Grid.Column="1" Grid.Row="2" x:Name="SINAL3"/>
+                    <Label Text="Expoente " WidthRequest="10" HeightRequest="10" Grid.Column="2" Grid.Row="2" x:Name="EXPOENTE3"/>
+                    <Label Text="Mantissa " WidthRequest="50" HeightRequest="20" Grid.Column="3" Grid.Row="2" x:Name="MANTISSA3"/>
+                    <Label Text="Decimal " WidthRequest="50" HeightRequest="20" Grid.Column="4" Grid.Row="2" x:Name="DECIMAL3"/>
+                </Grid>
+            </StackLayout>
+            <StackLayout>
+                <Grid HorizontalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <!--Definindo as colunas-->
+                        <ColumnDefinition />
+                        <!--Configurando as colunas-->
+                        <ColumnDefinition />
+                        <!--Configurando as colunas-->
+                        <ColumnDefinition />
+                        <!--Configurando as colunas-->
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <!--Definindo as linhas-->
+                        <RowDefinition />
+                        <!--Configurando as linhas-->
+                    </Grid.RowDefinitions>
+                    <Button Image="Som.png" Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" Clicked="SOMBOT"/>
+                    <Button Image="Sub.png" Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent" Clicked="SUBBOT"/>
+                    <Button Image="Mult.png" Grid.Column="2" Grid.Row="0" BackgroundColor="Transparent" Clicked="MULTBOT"/>
+                    <Button Image="Div.png" Grid.Column="3" Grid.Row="0" BackgroundColor="Transparent" Clicked="DIVBOT"/>
+                </Grid>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Resultado da operação:"/>
+                    <Grid WidthRequest="150">
+                        <Grid.ColumnDefinitions>
+                            <!--Definindo as colunas-->
+                            <ColumnDefinition />
+                            <!--Configurando a coluna-->
+                            <ColumnDefinition />
+                            <!--Configurando a coluna-->
+                            <ColumnDefinition />
+                            <!--Configurando a coluna-->
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <!--Definindo a linha-->
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Label Text="" WidthRequest="20" HeightRequest="20" Grid.Column="0" Grid.Row="0" x:Name="NUMRESUL"/>
+                        <Label Text="" WidthRequest="10" HeightRequest="10" Grid.Column="1" Grid.Row="0" x:Name="SINALRESUL"/>
+                        <Label Text="" WidthRequest="10" HeightRequest="10" Grid.Column="2" Grid.Row="0" x:Name="EXPOENTERESUL"/>
+                        <Label Text="" WidthRequest="50" HeightRequest="20" Grid.Column="3" Grid.Row="0" x:Name="MANTISSARESUL"/>
+                        <Label Text="" WidthRequest="50" HeightRequest="20" Grid.Column="4" Grid.Row="0" x:Name="DECIMALRESUL"/>
+                        <Label Text="Número" WidthRequest="20" HeightRequest="20" Grid.Column="0" Grid.Row="1" x:Name="NUMRESULP"/>
+                        <Label Text="Sinal" WidthRequest="10" HeightRequest="10" Grid.Column="1" Grid.Row="1" x:Name="SINALRESULP"/>
+                        <Label Text="Expoente" WidthRequest="10" HeightRequest="10" Grid.Column="2" Grid.Row="1" x:Name="EXPOENTERESULP"/>
+                        <Label Text="Mantissa" WidthRequest="50" HeightRequest="20" Grid.Column="3" Grid.Row="1" x:Name="MANTISSARESULP"/>
+                        <Label Text="Decimal" WidthRequest="50" HeightRequest="20" Grid.Column="4" Grid.Row="1" x:Name="DECIMALRESULP"/>
+                    </Grid>
+                </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
